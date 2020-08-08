@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GFR Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="cal">
+    <span>Creatinine</span>
+    <input type="text" id="cre">
+    <span>Age</span>
+    <input type="text" id="age">
+    <span>Gender</span>
+    <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+    <span>Race</span>
+    <select name="race" id="race">
+        <option value="white">White</option>
+        <option value="black">Black</option>
+      </select>
+      <button id="btn" onclick="calculate()">Calculate</button>
+      <span id="result">GFR Calculator</span>
+</div>
+</body>
+</html>
